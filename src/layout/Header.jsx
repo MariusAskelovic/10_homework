@@ -10,10 +10,10 @@ export default function Header() {
         <NavLink className={css.navLink} to='/'>
           Home
         </NavLink>
-        <NavLink className={css.navLink} to='/'>
+        <NavLink className={css.navLink} to='/about'>
           About
         </NavLink>
-        <NavLink className={css.navLink} to='/'>
+        <NavLink className={css.navLink} to='/posts'>
           Posts
         </NavLink>
       </nav>
