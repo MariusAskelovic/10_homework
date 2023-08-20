@@ -1,0 +1,27 @@
+.main {
+  background-image: url('/img/art.jpg');
+  height: 240px;
+  background-size: cover;
+  margin: 70px;
+  position: relative;
+  filter: grayscale(0.7);
+  border-radius: 20px;
+  box-shadow: 0 80px 120px black;
+}
+.h1 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+  filter: blur(3px);
+  mix-blend-mode: soft-light;
+  transition: all 0.2s;
+}
+.main:hover h1 {
+  mix-blend-mode: plus-lighter;
+  transition: all 0.5s;
+}
